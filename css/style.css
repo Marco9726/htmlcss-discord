@@ -33,6 +33,11 @@ li{
     list-style: none;
 }
 
+.parag{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
 /* inizio header */
 header{
     height: 80px;
@@ -92,6 +97,10 @@ main .big-box .container{
     height: 50vh;
 }
 
+main .grey{
+    background-color: lightgrey;
+}
+
 /* inizio settore 1 */
 main .blue{
     background-image: url('../img/jumbo.png');
@@ -111,15 +120,10 @@ h1{
 .blue .container #first-title{
     margin: 20px 0 40px;
 }
-/* paragrafo */
-.blue .container .col .parag{
-    font-size: 18px;
-    line-height: 25px;
-    margin-bottom: 25px;
-}
 /* pulsanti download */
 .blue .container .col button{
     border-radius: 20px;
+    margin-left: 15px;
 }
 
 .blue .container .col .Mac{
@@ -138,21 +142,30 @@ h1{
 
 /* fine settore 1 */
 
-/* inizio settor1 2-3-4 */
-.row .pink{
+/* regole sezioni ripetute */
+.row .small{
     background-color: pink;
-    width: 40%;
+    width: 30%;
+    padding-top: 30px;
 }
 
-.row .lightblue{
+.row .fat{
     background-color: cornflowerblue;
-    width: 60%;
+    width: 70%;
 }
 
-main .grey{
-    background-color: lightgrey;
+h2{
+    font-size: 40px;
 }
-/* fine settori 2-3-4  */
+
+/* SETTORE 2 */
+.row .col .first-img{
+    height: 95%;
+}
+
+.row .small .parag{
+    margin-top: 50px;
+}
 
 /* inizio settore 5  */
 main .grey .darkgreen{
