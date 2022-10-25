@@ -21,15 +21,22 @@ a{
     color: white;
 }
 
+button > a{
+    display: inline-block;
+}
+
+button{
+    border: none;
+}
+
 li{
     list-style: none;
 }
 
-
 /* inizio header */
 header{
     height: 80px;
-    background-color: lightskyblue;
+    background-color: rgb(37,94,232);
     display: flex;
     align-items: center;
 }
@@ -67,9 +74,7 @@ header .row .account button{
 }
 
 header .row .account button a{
-    display: inline-block;
     padding: 10px 15px;
-    border-radius: 16px;
     color: black;   
 }
 
@@ -89,13 +94,48 @@ main .big-box .container{
 
 /* inizio settore 1 */
 main .blue{
-    background-color: darkblue;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
 }
 
-main .blue .fucsia{
-    width: 60%;
-    background-color: rgb(211, 26, 140);
+main .blue .container{
+    width: 50%;
+    text-align: center;
+    color: white;
 }
+/* titolo  */
+h1{
+    font-size: 45px;
+}
+
+.blue .container #first-title{
+    margin: 20px 0 40px;
+}
+/* paragrafo */
+.blue .container .col .parag{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+/* pulsanti download */
+.blue .container .col button{
+    border-radius: 20px;
+}
+
+.blue .container .col .Mac{
+    color: black;
+}
+
+.blue .container .col .Brow{
+    background-color: black;
+}
+
+.blue .container .col button a{
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
 /* fine settore 1 */
 
 /* inizio settor1 2-3-4 */
