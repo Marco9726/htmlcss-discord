@@ -13,7 +13,6 @@
 
 .row{
     display: flex;
-    height: 100%;
 }
 
 a{
@@ -101,7 +100,7 @@ main .grey{
     background-color: lightgrey;
 }
 
-/* inizio settore 1 */
+/* SETTORE 1  */
 main .blue{
     background-image: url('../img/jumbo.png');
     background-size: cover;
@@ -140,9 +139,7 @@ h1{
     border-radius: 20px;
 }
 
-/* fine settore 1 */
-
-/* regole sezioni ripetute */
+/* REGOLE SEZIONI RIPETUTE  */
 .row .small{
     background-color: pink;
     width: 30%;
@@ -171,14 +168,38 @@ img{
     float: right;
 }
 
-/* inizio settore 5  */
+/* SETTORE 5 */
 main .grey .darkgreen{
     height: 100vh;
     background-color: darkgreen;
+    padding-top: 30px;
 }
-/* fine settore 5 e main  */
 
-/* inizio footer  */
+.grey .darkgreen .row{
+    width: 100%
+}
+
+.grey .darkgreen .row .col{
+    text-align: center;
+    width: 100%;
+}
+
+#fourth-image{
+    height: 100%;
+}
+
+.grey .darkgreen .col h2{
+    margin-bottom: 30px;
+}
+
+.grey .darkgreen. .col .parag{
+    margin-bottom: 0;
+}
+
+
+/* FINE MAIN  */
+
+/* FOOTER  */
  footer{
     background-color: rgb(70, 70, 70);
     padding-top: 5px;
