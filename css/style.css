@@ -74,7 +74,6 @@ header .row .account{
 
 header .row .account button{
     border-radius: 16px;
-    border: none;
 }
 
 header .row .account button a{
@@ -232,7 +231,6 @@ h4{
 
  /* inizio contenitore opzioni  */
  footer .options{
-    height: 60vh;
     margin-bottom: 20px;
     margin-top: 60px;
  }
@@ -288,24 +286,29 @@ h4{
  /* fine contenitore opzioni  */
 
  hr{
-    color: white;
+   border-color:rgba(135, 124, 238, 0.7);
+   margin-top: 25px;
  }
 
  /* inizio container finale */
- footer .last{
+ .last{
     height: 80px;
-    margin-top: 20px;
-    padding-top: 25px;
     padding-bottom: 25px;
-    background-color: aquamarine;
  }
- footer .last .row{
+ .last .row{
     justify-content: space-between;
  }
 
- footer .last .row div{
-    padding: 5px;
-    background-color: pink;
+ .last .row button{
+    border-radius: 16px;
  }
+
+ .last .row a{
+    padding: 10px 15px;
+    background-color: rgba(135, 124, 238, 0.7);
+    border-radius: 16px;
+ }
+ 
+
 
  /* fine footer  */
