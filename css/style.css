@@ -1,0 +1,149 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px dashed black;
+}
+
+.container{
+    margin: 0 auto;
+    width: 75%;
+}
+
+.row{
+    display: flex;
+    height: 100%;
+}
+
+/* inizio header */
+header{
+    height: 80px;
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+}
+
+header .container{
+    background-color: rgb(187, 165, 38);
+}
+
+header .row *{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+header .row .logo, .account{
+    width: 20%;
+}
+
+header .row nav{
+    width: 60%;
+    text-align: center;
+}
+
+header .row .logo{
+    padding-left: 8px;
+}
+
+header .row .account{
+    text-align: right;
+    padding-right: 8px;
+}
+/* fine header/ */
+
+/* inizio main  */
+
+/* regole settori main  */
+main .big-box{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+main .big-box .container{
+    height: 50vh;
+}
+
+/* inizio settore 1 */
+main .blue{
+    background-color: darkblue;
+}
+
+main .blue .fucsia{
+    width: 60%;
+    background-color: rgb(211, 26, 140);
+}
+/* fine settore 1 */
+
+/* inizio settor1 2-3-4 */
+.row .pink{
+    background-color: pink;
+    width: 40%;
+}
+
+.row .lightblue{
+    background-color: cornflowerblue;
+    width: 60%;
+}
+
+main .grey{
+    background-color: lightgrey;
+}
+/* fine settori 2-3-4  */
+
+/* inizio settore 5  */
+main .grey .darkgreen{
+    height: 100vh;
+    background-color: darkgreen;
+}
+/* fine settore 5 e main  */
+
+/* inizio footer  */
+ footer{
+    background-color: rgb(70, 70, 70);
+    padding-top: 5px;
+ }
+
+ /* inizio contenitore opzioni  */
+ footer .options{
+    height: 60vh;
+    margin-bottom: 20px;
+ }
+
+ footer .options .col-left{
+    width: calc(100% / 3);
+    background-color: rgb(231, 86, 108);
+ }
+
+ footer .options .col-right{
+    width: calc(100% / 3 * 2);
+ }
+
+ footer .options .col-right .col{
+    width: calc(100% / 4);
+    background-color: rgb(27, 225, 189);
+ }
+ /* fine contenitore opzioni  */
+
+ hr{
+    color: white;
+ }
+
+ /* inizio container finale */
+ footer .last{
+    height: 80px;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: aquamarine;
+ }
+ footer .last .row{
+    justify-content: space-between;
+ }
+
+ footer .last .row div{
+    padding: 5px;
+    background-color: pink;
+ }
+
+ /* fine footer  */
