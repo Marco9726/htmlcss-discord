@@ -200,7 +200,7 @@ main .mini-container{
     justify-content: center;
 }
 
-h3{
+h4{
     font-size: 30px;
     padding: 30px 30px 0;
     margin-bottom: 40px;
@@ -226,7 +226,7 @@ h3{
 
 /* FOOTER  */
  footer{
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(35, 35, 35);
     padding-top: 5px;
  }
 
@@ -234,21 +234,57 @@ h3{
  footer .options{
     height: 60vh;
     margin-bottom: 20px;
+    margin-top: 60px;
  }
 
- footer .options .col-left{
+ h3{
+    font-size: 32px;
+    margin-bottom: 30px;
+ }
+
+ .options .col-left{
     width: calc(100% / 3);
-    background-color: rgb(231, 86, 108);
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
  }
 
- footer .options .col-right{
+ .options .col-left #ita{
+    width: 20px;
+ }
+
+ .options .col-left a{
+    vertical-align:top;
+ }
+ .options .col-left a::after{
+    content: '\2228';
+ }
+
+ .options .col-right{
     width: calc(100% / 3 * 2);
  }
 
- footer .options .col-right .col{
+ .options .col-right .row .col{
     width: calc(100% / 4);
-    background-color: rgb(27, 225, 189);
  }
+
+ .options .col-right .row .col ul{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .options .col-right .row .col ul li{
+    margin-bottom: 10px;
+ }
+
+ ul li:not(:first-child){
+    color:white;
+ }
+
+ h3,li:first-child{
+    color: rgba(135, 124, 238, 0.7);
+ }
+
  /* fine contenitore opzioni  */
 
  hr{
