@@ -141,13 +141,11 @@ h1{
 
 /* REGOLE SEZIONI RIPETUTE  */
 .row .small{
-    background-color: pink;
     width: 30%;
     padding-top: 30px;
 }
 
 .row .fat{
-    background-color: cornflowerblue;
     width: 70%;
 }
 
@@ -171,7 +169,6 @@ img{
 /* SETTORE 5 */
 main .grey .darkgreen{
     height: 100vh;
-    background-color: darkgreen;
     padding-top: 30px;
 }
 
@@ -196,7 +193,35 @@ main .grey .darkgreen{
     margin-bottom: 0;
 }
 
+/* MINI CONTAINER */
+main .mini-container{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
 
+h3{
+    font-size: 30px;
+    padding: 30px 30px 0;
+    margin-bottom: 40px;
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+}
+
+.mini-container .col{
+    text-align: center;
+}
+
+.mini-container button{
+    border-radius: 20px;
+    background-color: rgba(135, 124, 238, 0.7);
+}
+
+.mini-container .Mac{
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
 /* FINE MAIN  */
 
 /* FOOTER  */
