@@ -158,13 +158,17 @@ h2{
     font-size: 40px;
 }
 
-/* SETTORE 2 */
-.row .col .first-img{
+img{
     height: 95%;
 }
 
 .row .small .parag{
     margin-top: 50px;
+}
+/* SETTORE 3 */
+
+#second-image{
+    float: right;
 }
 
 /* inizio settore 5  */
