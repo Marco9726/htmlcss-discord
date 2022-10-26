@@ -41,13 +41,14 @@ li{
 button:hover{
     box-shadow: 0px 5px 10px black;
 }
-
 /* inizio header */
 header{
     height: 80px;
     background-color: rgb(37,94,232);
     display: flex;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 header .row .logo{
@@ -101,9 +102,19 @@ main .big-box .container{
 }
 
 main .grey{
-    background-color: lightgrey;
+    background-color: rgba(0,0,0,0.1);
 }
 
+.wave,.wave-upside{
+    height: 40px;
+    background-image: url('../img/wave.svg');
+    background-size: cover;
+    opacity: 0.1;
+}
+
+.wave-upside{
+    transform: rotate(0.5turn);
+}
 
 /* SETTORE 1  */
 main .blue{
@@ -260,8 +271,17 @@ h4{
  .options .col-left a{
     vertical-align:top;
  }
- .options .col-left a::after{
+ .options .col-left .lingua a::after{
     content: '\2228';
+ }
+
+ .options .col-left .social ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: space-between;
+    width: 60%;
+    color: white;
  }
 
  .options .col-right{
@@ -285,7 +305,7 @@ h4{
     color:white;
  }
 
- h3,li:first-child{
+ h3,.col-right li:first-child{
     color: rgba(135, 124, 238, 0.7);
  }
 
@@ -315,6 +335,4 @@ h4{
     border-radius: 16px;
  }
  
-
-
  /* fine footer  */
